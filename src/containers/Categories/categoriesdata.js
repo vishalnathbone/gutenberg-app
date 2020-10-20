@@ -1,0 +1,30 @@
+export const categories=[
+    {
+        name:'FICTION',
+        icon:'Fiction.svg'
+    },
+    {
+        name:'PHILOSOPHY',
+        icon:'Philosophy.svg'
+    },
+    {
+        name:'DRAMA',
+        icon:'Drama.svg'
+    },
+    {
+        name:'HISTORY',
+        icon:'History.svg'
+    },
+    {
+        name:'HUMOUR',
+        icon:'Humour.svg'
+    },
+    {
+        name:'ADVENTURE',
+        icon:'Adventure.svg'
+    },
+    {
+        name:'POLITICS',
+        icon:'Politics.svg'
+    }
+]

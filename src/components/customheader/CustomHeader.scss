@@ -1,0 +1,14 @@
+header{
+    .page-topic{
+        display: flex;
+        align-items: center;
+        h1{
+            margin-bottom: 0;
+            text-transform: uppercase;
+        }
+        button{
+            padding-left: 0;
+            margin-right: 10px;
+        }
+    }
+}

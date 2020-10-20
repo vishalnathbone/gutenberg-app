@@ -1,0 +1,39 @@
+$headingcolor:#5E56E7;
+$headingcolor:#5E56E7;
+$bodycolor:#333333;
+$bodybg:#F8F7FF;
+body{
+  font-family: 'Montserrat', sans-serif;
+  background: $bodybg;
+}
+
+h1{
+  color: $headingcolor;
+  font-size:48px;
+  font-weight: 600;
+}
+h2{
+  color: $headingcolor;
+  font-size:30px;
+  font-weight: 600;
+}
+p{
+
+  color: $bodycolor;
+  font-size:16px;
+}
+.header{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: url('/assets/images/Pattern.svg');
+  margin-bottom: 30px;
+}
+
+.custom-header{
+  background: #fff;
+}
+
+.back-btn{
+  border:none;
+
+}

@@ -1,0 +1,27 @@
+.category {
+    margin-bottom: 30px;
+    a{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0 2px 5px 0 rgba(211, 209, 238, 0.5);
+        padding: 10px;
+        border-radius: 4px;
+        text-decoration: none;
+        background: #fff;
+        .category-info{
+            display: flex;
+            align-items: center;
+            p{
+                margin-bottom: 0;
+                margin-left: 15px;
+                font-size: 20px;
+            }
+            .category-icon{
+                width: 30px;
+            }
+        }
+        
+    }
+}
+

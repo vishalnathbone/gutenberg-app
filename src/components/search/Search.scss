@@ -1,0 +1,38 @@
+.search-container{
+    .input-group{
+        align-items: center;
+        .input-group-prepend, .input-group-append{        
+                position: absolute;
+                height: 90%;
+                z-index: 9;  
+                left: 3px;          
+        }
+        .input-group-append{
+            right: 3px;
+            left: unset;
+        }
+        input.form-control{
+            padding-left: 50px;
+            padding-right: 50px;
+            border-radius: 4px;
+        }
+        input, .input-group-text{
+            background: #F0F0F6;
+            border: none;
+            outline: none;
+            &:focus{
+                outline: none;
+                box-shadow:none;
+                background: #F0F0F6;
+                border:1px solid #5E56E7;
+            }
+        }
+
+        .clear-text{
+            cursor: pointer;
+        }
+    }
+    
+ 
+  
+}
